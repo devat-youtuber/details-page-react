@@ -9,6 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Route path="/" component={App} />
+      <Route path="/details-page-react" component={App} />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
