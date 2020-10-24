@@ -7,10 +7,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <Route path="/" component={App} />
-      <Route path="/details-page-react" component={App} />
-    </Router>
+   <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
